@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:click_and_cart/menu.dart';
+import 'package:click_and_cart/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());

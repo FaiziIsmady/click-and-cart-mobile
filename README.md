@@ -3,6 +3,7 @@
 # Contents
 - [Data Diri](#data-diri)<br>
 - [Tugas 7](#tugas-7)<br>
+- [Tugas 8](#tugas-8)<br>
 
 ## Data Diri
 **Nama : Muhammad Faizi Ismady Supardjo**<br>
@@ -11,6 +12,8 @@
 
 
 ## Tugas 7
+- [Contents](#contents)<br>
+
 **1. Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget, dan jelaskan perbedaan dari keduanya.**<br>
 stateless widget dan stateful widget adalah dua jenis widget utama dalam Flutter.<br>
 1.1 Stateless Widget<br>
@@ -253,6 +256,8 @@ blok kode dibawah akan menyesuaikan item mana yang ditekan pengguna
 ```
 
 ## Tugas 8
+- [Contents](#contents)<br>
+
 **1. Apa kegunaan const di Flutter? Jelaskan apa keuntungan ketika menggunakan const pada kode Flutter. Kapan sebaiknya kita menggunakan const, dan kapan sebaiknya tidak digunakan?**<br>
 Di Flutter, keyword `const` digunakan untuk membuat objek yang immutable atau tidak dapat diubah setelah diinisialisasi. `const` digunakan untuk mendeklarasikan objek yang bersifat konstan, artinya nilai objek tersebut sudah diketahui pada saat compile-time dan tidak akan berubah selama masa hidup aplikasi. Contohnya adalah `Text`, `Container`, atau objek lain yang isinya tidak akan diubah.
 
@@ -463,3 +468,4 @@ onTap: () {
   );
 },
 ```
+Ketika pengguna memilih opsi "Halaman Utama" dari drawer, aplikasi akan menggunakan `Navigator.pushReplacement` untuk membuka halaman utama (`MyHomePage`), menggantikan halaman sebelumnya di stack.
